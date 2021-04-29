@@ -1,0 +1,52 @@
+/* -----上半部分 和登录页一样--------- */
+.login-info-wrap {
+    margin: 0 auto;
+    width: 747px; 
+}
+.login-text-wrap { 
+    overflow: hidden;
+    height: 143px;
+}
+    /* ------------这里是我要转让 的样式 ------------- */
+.login-text {
+    position: relative;
+    margin: 53px auto;
+    padding: 0 20px; 
+    width: 153px;
+    text-align: left;
+}
+.login-text::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -125px;
+    display: block;
+    width: 105px;
+    border-top: 1px solid #9ac1c0;
+}
+
+.login-text::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 173px;
+    display: block;
+    width: 105px;
+    border-top: 1px solid #9ac1c0;
+}
+
+    /* -------------------- */
+.login-text h3 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 20px;
+    line-height: 20px;
+}
+.login-text h4 {
+    font-size: 12px;
+    font-weight: 600; 
+    line-height: 12px;
+    text-transform:uppercase
+}
+/* -----上半部分--------- */
+
