@@ -115,7 +115,7 @@
 .clausebox-wrap {
     display: block;
     width: 230px; 
-    margin: 10px 0 0 100px;
+    margin: 10px 0 33px 100px;
 }
 .clausebox-wrap>label { 
     display: inline-block;
@@ -136,4 +136,17 @@
     border: none;
     background: url(/img/enroll/gg.png) no-repeat ;
     background-size: 15px 15px;
+}
+
+#SignUp {
+    display: block; 
+    margin: 0 auto 38px;
+    width: 120px;
+    height: 33px;
+    background-color: #6db6ff;
+    color: #fff;
+    font-size: 16px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 5px;
 }
