@@ -68,7 +68,7 @@
     display: inline-block;
     width: 26px;
     height: 21px;
-    background: url(/img/common/形状1.png) no-repeat;
+    background: url(../img/common/形状1.png) no-repeat;
     margin-top: 2px;
 }
 /* ----------------header end -----------------*/

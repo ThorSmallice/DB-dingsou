@@ -84,7 +84,7 @@
     border: 1px solid #9ac1c0;
     outline: none;
     appearance: none;
-    background: url(/img/enroll/形状13.png) no-repeat;
+    background: url(../img/enroll/形状13.png) no-repeat;
     background-position: 148px;
 }
 /* ----验证码--- */
@@ -134,7 +134,7 @@
     width: 15px;
     height: 15px;
     border: none;
-    background: url(/img/enroll/gg.png) no-repeat ;
+    background: url(../img/enroll/gg.png) no-repeat ;
     background-size: 15px 15px;
 }
 
