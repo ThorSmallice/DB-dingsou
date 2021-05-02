@@ -55,22 +55,17 @@
     /* --投资信息列表-- */
  
 .invest-info-wrap {
-    position: relative;
-    z-index: 10;
+    
     margin: 0 auto;
     width: 900px;   
+    background: url(../img/invest/tt8_03.png) no-repeat;
+    background-color: #fafafa;
+
 }
-.invest-info-title {
-    width: 900px; 
-    height: 38px; 
-    background: url(../img/invest/tt8.png) no-repeat;
-}
+
 .invest-info-wrap>table {
-    position: absolute;
-    top: 0px;
-    left: 50%;
-    width: 756px; 
-    margin-left: -378px;
+    width: 756px;  
+    margin: 0 auto;
     text-align: center;
 }
 .invest-info-wrap>table thead { 
@@ -81,13 +76,12 @@
 .invest-info-wrap>table thead tr th:first-child {
     width: 169px;
 }
-.invest-info-wrap>table tbody {
+.invest-info-wrap>table tbody { 
     line-height: 36px;
 }
 
 .invest-info-footer {
     height: 500px;
-    background-color: #fafafa;
 }
 
     /* --投资信息列表-- */
